@@ -1,0 +1,26 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Simple Messenger Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eddyarellanes"
+  },
+  "keywords": [
+    "Messenger",
+    "Bots",
+    "NodeJs"
+  ],
+  "author": "Eddy Arellanes Bastida",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}

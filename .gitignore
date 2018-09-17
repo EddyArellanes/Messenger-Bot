@@ -1,0 +1,4 @@
+node_modules
+config-messenger
+config/config.js
+ngrok.exe
