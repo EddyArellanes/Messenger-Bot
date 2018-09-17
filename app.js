@@ -13,7 +13,7 @@ app.get('/', function(req, response){
     response.send('Hello Man/Woman')
 })
 app.get('/webhook', function(req, response){
-    if(req.query['hub.verify_token'] === 'techno_token'){
+    if(req.query['hub.verify_token'] === messengerAPI.TOKEN_NAME){
         response.send(req.query['hub.challenge'])
     }else{
         response.send("You don't have Permissiones :P")
